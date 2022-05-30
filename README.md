@@ -41,7 +41,7 @@ include: package:lint_factory/analysis_options.yaml
 This will ensure you always use the latest version of the lints. If you wish to restrict the lint version, specify a version of `analysis_options.yaml` instead:
 
 ```yaml
-include: package:lint_factory/lint_options.1.0.0.yaml
+include: package:lint_factory/analysis_options.1.0.0.yaml
 ```
 
 ## Suppressing Lints
@@ -90,7 +90,7 @@ To indicate your project is using `lint_factory` → [![style: lint_factory][bad
 [![style: lint_factory](https://img.shields.io/badge/style-lint__factory-e32028.svg)](https://pub.dev/packages/lint_factory)
 ```
 
-[lint_options_yaml]: https://github.com/innFactory/lint_factory/blob/main/analysis_options.yaml
+[analysis_options_yaml]: https://github.com/innFactory/lint_factory/blob/main/analysis_options.yaml
 [ci_badge]: https://github.com/innFactory/lint_factory/workflows/ci/badge.svg
 [ci_badge_link]: https://github.com/innFactory/lint_factory/actions
 [badge]: https://img.shields.io/badge/style-lint__factory-e32028.svg
