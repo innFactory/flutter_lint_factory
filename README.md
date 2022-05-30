@@ -27,18 +27,18 @@ To use the lints, add a dependency in your `pubspec.yaml`:
 dependencies:
   lint_factory: ^1.0.0
 
-# Or, if you just want `lint_options.yaml`, it can be a dev dependency.
+# Or, if you just want `analysis_options.yaml`, it can be a dev dependency.
 dev_dependencies:
   lint_factory: ^1.0.0
 ```
 
-Then, add an include in `lint_options.yaml`:
+Then, add an include in `analysis_options.yaml`:
 
 ```yaml
-include: package:lint_factory/lint_options.yaml
+include: package:lint_factory/analysis_options.yaml
 ```
 
-This will ensure you always use the latest version of the lints. If you wish to restrict the lint version, specify a version of `lint_options.yaml` instead:
+This will ensure you always use the latest version of the lints. If you wish to restrict the lint version, specify a version of `analysis_options.yaml` instead:
 
 ```yaml
 include: package:lint_factory/lint_options.1.0.0.yaml
@@ -73,10 +73,10 @@ class B {}
 
 ### Project Level
 
-To suppress a specific lint rule for an entire project, modify `lint_options.yaml`:
+To suppress a specific lint rule for an entire project, modify `analysis_options.yaml`:
 
 ```yaml
-include: package:lint_factory/lint_options.yaml
+include: package:lint_factory/analysis_options.yaml
 linter:
   rules:
     public_member_api_docs: false
@@ -90,7 +90,7 @@ To indicate your project is using `lint_factory` → [![style: lint_factory][bad
 [![style: lint_factory](https://img.shields.io/badge/style-lint__factory-e32028.svg)](https://pub.dev/packages/lint_factory)
 ```
 
-[lint_options_yaml]: https://github.com/innFactory/lint_factory/blob/main/lint_options.yaml
+[lint_options_yaml]: https://github.com/innFactory/lint_factory/blob/main/analysis_options.yaml
 [ci_badge]: https://github.com/innFactory/lint_factory/workflows/ci/badge.svg
 [ci_badge_link]: https://github.com/innFactory/lint_factory/actions
 [badge]: https://img.shields.io/badge/style-lint__factory-e32028.svg
