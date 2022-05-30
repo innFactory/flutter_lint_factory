@@ -16,7 +16,7 @@ Developed by [innFactory GmbH][innfactory_link] ⚙️
 
 Flutter & Dart lint rules as well as [dart_code_metrics][dart_code_metrics_link] configuration used internally at [innFactory GmbH][innfactory_link].
 
-**Note:** This package was heavily inspired by [very_good_lint][very_good_lint_link].
+**Note:** This package was heavily inspired by [very_good_analysis][very_good_analysis_link].
 
 ## Usage
 
@@ -100,5 +100,5 @@ To indicate your project is using `lint_factory` → [![style: lint_factory][bad
 [pub_badge]: https://img.shields.io/pub/v/lint_factory.svg
 [pub_badge_link]: https://pub.dartlang.org/packages/lint_factory
 [dart_code_metrics_link]: https://github.com/dart-code-checker/dart-code-metrics
-[very_good_lint_link]: https://github.com/VeryGoodOpenSource/very_good_lint
+[very_good_analysis_link]: https://github.com/VeryGoodOpenSource/very_good_analysis
 [innfactory_link]: https://innfactory.de
