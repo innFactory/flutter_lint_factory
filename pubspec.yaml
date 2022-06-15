@@ -1,6 +1,6 @@
 name: lint_factory
 description: Dart / Flutter lint rules and dart_code_metrics configuration used internally by innFactory GmbH.
-version: 1.1.0
+version: 1.2.2
 homepage: https://github.com/innFactory/flutter_lint_factory
 repository: https://github.com/innFactory/flutter_lint_factory
 issue_tracker: https://github.com/innFactory/flutter_lint_factory/issues
