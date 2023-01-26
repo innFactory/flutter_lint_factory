@@ -1,3 +1,10 @@
+# Changelog
+
+## 3.7.0
+
+- Remove dart_code_metrics integration
+- Remove deprecated invariant_booleans rule
+
 ## 1.2.2
 
 - Changed dart-code-metrics member-ordering: getters are now before methods
